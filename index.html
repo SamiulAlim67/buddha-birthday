@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Siddhartha Gautama</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Happy Birthday Siddhartha Gautama</h1>
+        <button id="changeFontBtn">Change Font Style</button>
+        
+        <!-- Picture Slider Section -->
+        <div class="slider">
+            <img src="https://t3.ftcdn.net/jpg/07/34/69/14/240_F_734691440_wj0WXf6e4ngfeovqfNa2wXNtapFoyVy3.jpg" class="slide" style="display: flex;">
+            <img src="https://www.artsindia.com/cdn/shop/products/Jayden_oil_color_illustration_of_lord_buddha_in_black_and_white_bed68546-f7de-4861-a7e0-c78821d87dae.png?v=1680852211" class="slide" style="display: flex;">
+            <img src="https://img.freepik.com/premium-photo/australian-flag-flattering-sky_1053378-5292.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1715644800&semt=ais_user" class="slide" style="display: flex;">
+        </div>
+        <button id="prevSlideBtn">Previous</button>
+        <button id="nextSlideBtn">Next</button>
+        
+        
+        <div class="quote-generator">
+            <button id="newQuoteBtn">Get a Quote</button>
+            <p id="quoteDisplay">Click the button to see a quote</p>
+        </div>
+        
+        <div class="countdown">
+            <p id="countdownTimer">Time until the next celebration: <span id="time"></span></p>
+        </div>
+        <button id="moreInfoBtn">More Info</button>
+    </div>
+
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2>About Buddha's Birthday</h2>
+            <p>Buddha's Birthday, also known as Vesak, celebrates the birth, enlightenment, and death of Siddhartha Gautama. It is observed on the first full moon in May.</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
